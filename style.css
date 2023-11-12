@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,900&family=Lato:wght@100;300&family=Poppins:wght@400;600;700&family=Tektur:wght@700&family=Ubuntu:wght@300&family=VT323&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 80vw;
+    font-family: 'Ubuntu', sans-serif;
+}
+.logo img{
+     width: 55px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    padding-top: 3px;
+    padding-bottom: 10px;
+}
+.navbar{
+    display: flex;
+    height: 12px 0;
+}
+.navbar li{
+    list-style: none;
+    margin: 0 12px;
+}
+.navbar li a{
+    color: black;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.navbar li a:hover{
+    font-size: 1.2rem;
+    color: rgb(32, 52, 165);
+    cursor: pointer;
+}
+/* header */
+/* header section1 */
+.top-left{
+    width: 50%;
+    height: 50vh;
+    padding: 13px 0;
+}
+.top-right{
+    width: 50%;
+    height: 50vh;
+}
+h1{
+    margin: 13px 0;
+}
+.top-right img{
+    width: 50vw;
+}
+.section1{
+    min-height: 100vh;
+    margin-top: 40px;
+    background-image: url(images/asset\ 34.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60%;
+}
+.section1 h1{
+    font-size: 2rem;
+}
+/* header section2  */
+.section2{
+    padding-left: 63px;
+    padding-right: 63px;
+}
+.section2 h1{
+    margin-top: 26px;
+    margin-bottom: 26px;
+    font-size: 2rem;
+}
+.boxes{
+    margin-bottom: 3px;
+}
+.box{
+    padding: 8px 0;
+    margin: 20px 22px;
+    min-width: 20vw;
+    text-align: center;
+    border: 2px solid rgb(32, 52, 165);
+    border-radius: 22px;
+}
+.box img{
+    width: 20vw;
+    height: 15vw;
+    margin: 12px 0;
+}
+.box ul{
+    list-style-type: none;
+}
+.box ul li{
+    margin: 12px 2px;
+}
+.box h2{
+    margin: 12px 0;
+}
+.box .btn{
+    padding: 9px 50px;
+}
+/* header section3 */
+.section3{
+    padding-left: 110px;
+    padding-right: 110px;
+}
+.column{
+    margin-right: auto;
+    justify-content: space-between;
+}
+.column hr{
+    color: rgb(32, 52, 165);
+    width: 16vw;
+    margin: 3px auto;
+}
+.column h3, .column p{
+    padding: 5px 0;
+}
+.row{
+    margin-bottom: 25px;
+}
+
+/* footer */
+.contact{
+    margin: 23px 0;
+}
+.fa-solid, .fa-brands{
+    color: blue;
+    margin-right: 10px;
+}
+.footer-first a{
+    text-decoration: none;
+}
+.footer-first a h4{
+    color: black;
+}
+.footer-second{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+}

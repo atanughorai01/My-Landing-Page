@@ -1,0 +1,164 @@
+@media screen and (max-width:1270px) { /*consider all the size taking the screen size 991px*/
+    .column hr{
+        width: 12vw;
+    }
+    .home{
+        flex-direction: column-reverse;
+    }
+
+}
+@media screen and (max-width: 900px) { /*consider all the size taking the screen size 767px*/
+    .section1{
+        background-image: url(images/asset\ 34.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 90%;
+    }
+    .section1 h1{
+        font-size: 1.6rem;
+    }
+    .home{
+        flex-direction: column-reverse;
+    }
+    .section1 .top-left{
+        margin-bottom: 25px;
+    }
+    .top-right img{
+        width: 49vw;
+        margin-top: 10vw;
+    }
+    .section2 h1{
+        font-size: 1.7rem;
+    }
+    .section3 h1{
+        font-size: 1.7rem;
+    }
+    .footer h1{
+        font-size: 1.7rem;
+    }
+    .section2{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .box{
+        margin: 20px 18px;
+        min-width: 15vw;
+    }
+    .box h2{
+        font-size: 1rem;
+    }
+    .box .btn{
+        padding: 9px 20px;
+    }
+    .column h3, .column p {
+        padding: 3px 0;
+        font-size: 15px;
+      }
+    .column hr {
+        width: 6vw;
+      }
+}
+@media screen and (max-width:680px) { /*consider all the size taking the screen size 480px*/
+    nav{
+        flex-direction: column;
+    }
+    .logo{
+        margin-top: 3px;
+        margin-bottom: 10px;
+    }
+    .logo img{
+        width: 37px;
+    }
+    .font-bold{
+        font-size: 15px;
+    }
+    .navbar li{
+        font-size: 15px;
+        margin: 0 10px;
+    }
+    .navbar .btn{
+        padding: 5px 10px;
+    }
+    .section1{
+        background-size: 97%;
+    }
+    .home{
+        flex-direction: column-reverse;
+    }
+    .section1 h1{
+        font-size: 1.3rem;
+    }
+    .section2 h1{
+        font-size: 1.3rem;
+    }
+    .section3 h1{
+        font-size: 1.3rem;
+    }
+    .footer h1{
+        font-size: 1.3rem;
+    }
+    .section1 p{
+        font-size: 16px;
+    }
+    .container {
+        max-width: 100%;
+      }
+    .top-right img {
+        width: 60vw;
+      }
+    .home .flex{
+        margin-top: -93px;
+      }
+    .section2 {
+        padding-left: 10%;
+        padding-right: 10%;
+      }
+    .section2 p{
+        font-size: 16px;
+      }
+    .boxes{
+        flex-direction: column;
+    }
+    .box img {
+        width: 50vw;
+        height: 40vw;
+        margin: 12px 0;
+      }
+    .box .btn {
+        padding: 10px 80px;
+      }
+      .section3{
+        padding-left: 10%;
+        padding-right: 10%;
+      }
+    .column hr {
+        width: 15vw;
+      }
+    footer{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .footer-second {
+        padding-top: 30px;
+        padding-bottom: 10px;
+      }
+    .footer-text{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .section1 p{
+        font-size: 15px;
+    }
+    .section2 p {
+        font-size: 15px;
+      }
+    .column h3, .column p {
+        padding: 3px 0;
+        font-size: 12px;
+      }
+    .contact h4, .contact p {
+        font-size: 12px;
+      }
+}
